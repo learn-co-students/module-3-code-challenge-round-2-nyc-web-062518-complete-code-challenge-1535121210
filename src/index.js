@@ -90,11 +90,13 @@ function likePostFetch(){
     method: "POST",
     headers: {'Accept': 'application/json',
     'Content-Type': 'application/json'},
-    body: JSON.stringify({id_number: 3})
-    }
+    body: JSON.stringify({
+      image_id: 3
+    }),
+  }
 
   fetch(likeURL, objData)
-    
+
 }
 
 
